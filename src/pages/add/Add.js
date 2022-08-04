@@ -2,5 +2,5 @@
 import "./Add.css";
 
 export default function Add() {
-  return <div>Add New Biryani Recipe here...</div>;
+  return <div>Add New Biryani Recipe here</div>;
 }
