@@ -1,0 +1,35 @@
+.navbar {
+    background: brown;
+    padding: 15px;
+    color: #fff;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    /* or 1200px - change later */
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* a because it is a Link tag means a tag in normal html */
+.navbar a.brand {
+    margin-right: 50px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+.navbar a.nav-item {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.navbar a.nav-item:hover {
+    background: #fff;
+    color: brown;
+}
